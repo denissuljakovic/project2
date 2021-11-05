@@ -10,6 +10,7 @@
         Due Date: 22/10/2021
         Purpose: HTML Basics Project 1-->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 
@@ -229,7 +230,7 @@
 <!--Contact-->
     <a name="Contact"><h2 class="contact">Contact</h2></a>
     
-      <div id = "contactBoxes">
+      <div class="fluid-container" id = "contactBoxes">
         <div id = "contactLeftbox">
             <p class="contact" ><strong>
                 Send me an email or fill the form on the right:
@@ -241,7 +242,7 @@
             </p>
         </div> 
 
-        <div id = "contactMiddlebox">
+        <div class="contactMiddlebox" style="clear: left;" id = "contactMiddlebox">
             <form action="action_page.php">
 
                 <label for="fname">First Name</label>
