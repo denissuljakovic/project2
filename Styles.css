@@ -440,3 +440,23 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 10px;
 }
+
+@media only screen and (max-width:992px){
+
+    #aboutBoxes{
+        align-self: center;
+        width: auto;
+      }
+      #educationBoxes{
+        align-self: center;
+        width: auto;
+      }
+      #skillBoxes{
+        align-self: center;
+        width: auto;
+      }
+      #addressBoxes{
+        align-self: center;
+        width: auto;
+      }
+}
