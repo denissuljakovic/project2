@@ -417,42 +417,5 @@ footer{
 
 
 
-@media only screen and (max-width:992px){
-
-    #aboutBoxes{
-        flex-direction: column;
-        justify-content: center; 
-        height: auto;
-        width: auto; 
-      }
-      #educationBoxes{
-        flex-direction: column;
-        justify-content: center; 
-        height: auto;
-        width: auto; 
-      }
-      #skillBoxes{
-        flex-direction: column;
-        justify-content: center; 
-        height: auto;
-        width: auto; 
-      }
-      #addressBoxes{
-        flex-direction: column;
-        justify-content: center; 
-        height: auto;
-        width: auto; 
-      }
-
-      .video{
-        flex-direction: column;
-        justify-content: center; 
-        height: auto;
-        width: auto; 
-      }
-      
-
-      
-}
 
 
