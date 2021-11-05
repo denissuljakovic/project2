@@ -415,9 +415,7 @@ footer{
     padding-bottom: 10px;
 }
 
-.fluid-container{
-    display: flex;
-}
+
 
 @media only screen and (max-width:992px){
 
