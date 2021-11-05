@@ -418,20 +418,28 @@ footer{
 @media only screen and (max-width:992px){
 
     #aboutBoxes{
-        align-self: center;
-        width: auto;
+        flex-direction: column;
+        justify-content: center; 
+        height: auto;
+        width: auto; 
       }
       #educationBoxes{
-        align-self: center;
-        width: auto;
+        flex-direction: column;
+        justify-content: center; 
+        height: auto;
+        width: auto; 
       }
       #skillBoxes{
-        align-self: center;
-        width: auto;
+        flex-direction: column;
+        justify-content: center; 
+        height: auto;
+        width: auto; 
       }
       #addressBoxes{
-        align-self: center;
-        width: auto;
+        flex-direction: column;
+        justify-content: center; 
+        height: auto;
+        width: auto; 
       }
       
 
